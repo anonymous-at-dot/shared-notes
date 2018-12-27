@@ -1,46 +1,35 @@
-package javabasics;
+package dharani;
 
 import java.util.Scanner;
 
 public class SwitchDemo 
 {
-
-	public static void main(String[] args) 
+	
+	public static void main(String []a)
 	{
-		int num;
+		
+		int no;
+		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter a number");
+		System.out.println("Enter a number:");
 		
-		num = sc.nextInt();
+		no = sc.nextInt();
 		
-		switch(num)
+		switch(no)
 		{
 		case 1:
 				System.out.println("Sunday");
 				break;
 		case 2:
-			System.out.println("Monday");
-			break;
-		case 3:
-			System.out.println("Tuesday");
-			break;
-		case 4:
-			System.out.println("Wednesday");
-			break;
-		case 5:
-				System.out.println("Thursday");
+			
+				System.out.println("Monday");
 				break;
-		case 6:
-				System.out.println("Friday");
-				break;
-		case 7:
-			System.out.println("Satday");
-			break;
-			default:
-				System.out.println("Invalid number");
+			
+		default:	//optional
+				System.out.println("Invalid option");
 		}
-		System.out.println("done");
+		
 	}
 
 }

@@ -1,5 +1,3 @@
-//Session 3 - if loop
-
 package javabasics;
 
 import java.util.Scanner;
