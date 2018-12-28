@@ -8,7 +8,7 @@ Oh don't bother, few notes shared with our H
       | |  | |_ ___| |_ __ _ _ __   ___ ___
       | |  | | / __| __/ _` | '_ \ / __/ _ \
       | |__| | \__ \ || (_| | | | | (_|  __/
-      |_____/|_|___/\__\__,_|_| |_|\___\___|	
+      |_____/|_|___/\__\__,_|_| |_|\___\___|
                  ______
                 / /___ \
                / /  __) |
@@ -24,7 +24,7 @@ Oh don't bother, few notes shared with our H
 
 
 ###Java
-  general purpose, highlevel, object oriented programming
+  // general purpose, highlevel, object oriented programming
 
   platform independant
 
