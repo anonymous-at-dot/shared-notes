@@ -29,32 +29,21 @@
 
 ## Shared notes
 
-<!---
+<!--- general purpose, highlevel, object oriented programming
+platform independant
+lowlevel : 0,1 (binary digits)
+assembly : pnemonic codes (mov,jump, reg, sub, add)
+high level: like english (print, scanner(scanf)
+assembler : convert assembly code into machine code
+compiler: hll to machine code
+interpretor: hll to machine code ( .class into machine code)
 
-    general purpose, highlevel, object oriented programming
-    platform independant
-    lowlevel : 0,1 (binary digits)
-    assembly : pnemonic codes (mov,jump, reg, sub, add)
-    high level: like english (print, scanner(scanf)
-    assembler : convert assembly code into machine code
-    compiler: hll to machine code
-    interpretor: hll to machine code ( .class into machine code)
+JDK : Java Development kit  (code)
+JRE : Java Runtime environment (run)
 
+compiler - compiles the .java code : .class(bytecode)
 
-    // 1991 - Sun microsystem - James Goasling, +28 - Oak
-
-    // 1995 - renamed as java (coffe bean company )
-
-    // 2009 - oracle acquired sun microsystem
-
-    JDK : Java Development kit  (code)
-    JRE : Java Runtime environment (run)
-
-    compiler - compiles the .java code : .class(bytecode)
-
-    .class > JRE (JVM - java virtual machine - interpretor) > binary digits (0,1)
-
---->
+.class > JRE (JVM - java virtual machine - interpretor) > binary digits (0,1) --->
 
 identifier : identification purpose
   user defined name - variable, class, function,.....
