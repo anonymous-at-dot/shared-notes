@@ -22,7 +22,8 @@
         | |\/| |/ _` | | '_ \| __/ _` | | '_ \
         | |  | | (_| | | | | | || (_| | | | | |
         |_|  |_|\__,_|_|_| |_|\__\__,_|_|_| |_|
-```
+</details>
+
 <!---
 general purpose, highlevel, object oriented programming
 platform independant
@@ -32,13 +33,11 @@ high level: like english (print, scanner(scanf)
 assembler : convert assembly code into machine code
 compiler: hll to machine code
 interpretor: hll to machine code ( .class into machine code)
-
 JDK : Java Development kit  (code)
 JRE : Java Runtime environment (run)
-
 compiler - compiles the .java code : .class(bytecode)
-<!--- Comments are Fun --->
-class >> JRE (JVM >> java virtual machine >> interpretor) >> binary digits (0,1) -->
+class >> JRE (JVM >> java virtual machine >> interpretor) >> binary digits (0,1) 
+--->
 
 #### • Principium
 ** •identifiers **
@@ -375,7 +374,7 @@ Multidimensional Array
   1 2
   3 4
 
-```int [][]arrayname = new int[rowsize [colsize];``
+` int [][]arrayname = new int[rowsize][colsize];`
 
 
   ex:
