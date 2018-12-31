@@ -1,17 +1,15 @@
-
-
 #### Shared Java notes
 
 ~~..Obadiah, his servants. There shall, in that time, be rumours of things going astray, erm, and there shall be a great confusion as to where things really are, and nobody will really know where lieth those little things wi-- with the sort of raffia work base that has an attachment. At this time, a friend shall lose his friend's hammer and the young shall not know where lieth the things possessed by their fathers that their fathers put there only just the night before, about eight o'clock. Yea, it is written in the book of Cyril that, in that time, shall the third one.~~ Oh don't bother, few notes shared with our __H__ thats' it
 
 <details><summary> **The answer to life, the universe and everything** </summary>
-```ascii
-        _____  _     _
-        |  __ \(_)   | |
-        | |  | |_ ___| |_ __ _ _ __   ___ ___
-        | |  | | / __| __/ _` | '_ \ / __/ _ \
-        | |__| | \__ \ || (_| | | | | (_|  __/
-        |_____/|_|___/\__\__,_|_| |_|\___\___|
+```
+ ____   _     _
+|  __ \(_)   | |
+| |  | |_ ___| |_ __ _ _ __   ___ ___
+| |  | | / __| __/ _` | '_ \ / __/ _ \
+| |__| | \__ \ || (_| | | | | (_|  __/
+|_____/|_|___/\__\__,_|_| |_|\___\___|
                    ______
                   / /___ \
                  / /  __) |
@@ -24,11 +22,9 @@
         | |\/| |/ _` | | '_ \| __/ _` | | '_ \
         | |  | | (_| | | | | | || (_| | | | | |
         |_|  |_|\__,_|_|_| |_|\__\__,_|_|_| |_|
-
 ```
-</details>
-
-<!--- general purpose, highlevel, object oriented programming
+<!---
+general purpose, highlevel, object oriented programming
 platform independant
 lowlevel : 0,1 (binary digits)
 assembly : pnemonic codes (mov,jump, reg, sub, add)
@@ -41,73 +37,53 @@ JDK : Java Development kit  (code)
 JRE : Java Runtime environment (run)
 
 compiler - compiles the .java code : .class(bytecode)
-
-.class > JRE (JVM - java virtual machine - interpretor) > binary digits (0,1) --->
-
----
-
+<!--- Comments are Fun --->
+class >> JRE (JVM >> java virtual machine >> interpretor) >> binary digits (0,1) -->
 
 #### • Principium
 ** •identifiers **
-
 - User defined ➛ variables, classes, functions
 - In context and relevant
-
   `eg: firstname, age, phone, employeecode`
 
 •keywords
-
-
-  Reserved words
-
-  set of words = pre-defined meaning
-
+   <!--- --> is working :)
+  Reserved set of words with an agreed upon meaning
   ex:
-    int  -- whole numbers
-    float -- decimal numbers
-    break  -- stop the execution
+  - `int  -- whole numbers`
+  - `float -- decimal numbers`
+  - `break  -- stop the execution`
 
 
 ```java
-
 package oops;
-import java.util.Scanner;
-public class Books
-{
-  private int bookid;
-  private String bookname;
-  private float price;
-  //user defined methods
-  public void getBooks()
-  {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter bookid, name and price:");
-    bookid = sc.nextInt();
-    bookname = sc.next();
-    price = sc.nextFloat();
-  }
-
-  public void showBooks()
-  {
-    System.out.println("Book id:" + bookid);
-    System.out.println("Book Name:" + bookname);
-    System.out.println("Price:" + price);
-  }
-    }
+    import java.util.Scanner;
+    public class Books
+    {
+      private int bookid;
+      private String bookname;
+      private float price;
+      public void getBooks() //user defined methods
+      {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter bookid, name and price:");
+        bookid = sc.nextInt();
+        bookname = sc.next();
+        price = sc.nextFloat();
+        }
+    
+      public void showBooks()
+      {
+        System.out.println("Book id:" + bookid);
+        System.out.println("Book Name:" + bookname);
+        System.out.println("Price:" + price);
+      }
+        }
 ```
-     </code></pre>
-
-
-{"scope": "black", "code": "\\x1b\\[(0{,2};)?30m", "color": "#000000"},
-
-#### • variable
-- test 1
-- test 2
 ----------
-
-  user defined name - given to a memory location (Temporary memory)
-
-  easily the identify memory location(store/retrieve)
+### • variable
+  - user defined placeholder that points to a temporary memory location
+  - Enables the easy ___ identification-storage-and-retrieval__ memory location(store/retrieve)
 
 
   declaration
@@ -399,7 +375,7 @@ Multidimensional Array
   1 2
   3 4
 
-  int [][]arrayname = new int[rowsize][colsize];
+```int [][]arrayname = new int[rowsize [colsize];``
 
 
   ex:
