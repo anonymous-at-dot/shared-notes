@@ -1,10 +1,12 @@
+[TOC]
 
+~~..Obadiah, his servants. There shall, in that time, be rumours of things going astray, erm, and there shall be a great confusion as to where things really are, and nobody will really know where lieth those little things wi-- with the sort of raffia work base that has an attachment. At this time, a friend shall lose his friend's hammer and the young shall not know where lieth the things possessed by their fathers that their fathers put there only just the night before, about eight o'clock. Yea, it is written in the book of Cyril that, in that time, shall the third one.~~ Oh don't bother, it's just notes shared with our __H__ thats' it <3
 
-#### Shared Java notes
+<details>
+    <summary> <b>
+    The answer to life, the universe and everything
+    </b> </summary>
 
-~~..Obadiah, his servants. There shall, in that time, be rumours of things going astray, erm, and there shall be a great confusion as to where things really are, and nobody will really know where lieth those little things wi-- with the sort of raffia work base that has an attachment. At this time, a friend shall lose his friend's hammer and the young shall not know where lieth the things possessed by their fathers that their fathers put there only just the night before, about eight o'clock. Yea, it is written in the book of Cyril that, in that time, shall the third one.~~ Oh don't bother, few notes shared with our __H__ thats' it
-
-<details><summary> **The answer to life, the universe and everything** </summary>
 ```ascii
         _____  _     _
         |  __ \(_)   | |
@@ -36,29 +38,21 @@ high level: like english (print, scanner(scanf)
 assembler : convert assembly code into machine code
 compiler: hll to machine code
 interpretor: hll to machine code ( .class into machine code)
-
 JDK : Java Development kit  (code)
 JRE : Java Runtime environment (run)
-
 compiler - compiles the .java code : .class(bytecode)
-
 .class > JRE (JVM - java virtual machine - interpretor) > binary digits (0,1) --->
 
----
+##### Principium
+  - identifiers
+  - User defined ➛ variables, classes, functions
+  - In context and relevant
 
+    `eg: firstname, age, phone, employeecode`
 
-#### • Principium
-** •identifiers **
+     - ### keywords
 
-- User defined ➛ variables, classes, functions
-- In context and relevant
-
-  `eg: firstname, age, phone, employeecode`
-
-•keywords
-
-
-  Reserved words
+        -  Reserved words
 
   set of words = pre-defined meaning
 
@@ -66,7 +60,6 @@ compiler - compiles the .java code : .class(bytecode)
     int  -- whole numbers
     float -- decimal numbers
     break  -- stop the execution
-
 
 ```java
 
@@ -446,7 +439,7 @@ class
       lilly   --- objects
 
   a class  can have n no of objects
-
+s
   can create n no objects for a class
 
 
@@ -642,3 +635,9 @@ more than one base classes - one derived class
 hybrid
 --------
   any combination of inheritances
+[1help]
+: [2][Shared Java notes]
+
+2[shared Sava notes]:u
+
+
