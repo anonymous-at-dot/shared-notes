@@ -681,7 +681,7 @@ interpretor: hll to machine code ( .class into machine code)
 JDK : Java Development kit  (code)
 JRE : Java Runtime environment (run)
 compiler - compiles the .java code : .class(bytecode)
-class >> JRE (JVM >> java virtual machine >> interpretor) >> binary digits (0,1) 
+class >> JRE (JVM >> java virtual machine >> interpretor) >> binary digits (0,1)
 --->
 
 #### • Principium
@@ -715,7 +715,7 @@ package oops;
         bookname = sc.next();
         price = sc.nextFloat();
         }
-    
+
       public void showBooks()
       {
         System.out.println("Book id:" + bookid);
