@@ -1,11 +1,10 @@
 [TOC]
 
-~~..Obadiah, his servants. There shall, in that time, be rumours of things going astray, erm, and there shall be a great confusion as to where things really are, and nobody will really know where lieth those little things wi-- with the sort of raffia work base that has an attachment. At this time, a friend shall lose his friend's hammer and the young shall not know where lieth the things possessed by their fathers that their fathers put there only just the night before, about eight o'clock. Yea, it is written in the book of Cyril that, in that time, shall the third one.~~ Oh don't bother, it's just notes shared with our __H__ thats' it <3
-
 <details>
-    <summary> <b>
+    <summary> <i>
     The answer to life, the universe and everything
-    </b> </summary>
+    </i> </summary>
+~~..Obadiah, his servants. There shall, in that time, be rumours of things going astray, erm, and there shall be a great confusion as to where things really are, and nobody will really know where lieth those little things wi-- with the sort of raffia work base that has an attachment. At this time, a friend shall lose his friend's hammer and the young shall not know where lieth the things possessed by their fathers that their fathers put there only just the night before, about eight o'clock. Yea, it is written in the book of Cyril that, in that time, shall the third one.~~ Oh don't bother, it's just notes shared with our __H__ thats' it <3
 
 ```ascii
         _____  _     _
@@ -28,6 +27,7 @@
         |_|  |_|\__,_|_|_| |_|\__\__,_|_|_| |_|
 
 ```
+Oh don’t bother, it’s just notes shared with our H thats’ it :blush:
 </details>
 
 <!--- general purpose, highlevel, object oriented programming
@@ -43,64 +43,33 @@ JRE : Java Runtime environment (run)
 compiler - compiles the .java code : .class(bytecode)
 .class > JRE (JVM - java virtual machine - interpretor) > binary digits (0,1) --->
 
-##### Principium
-  - identifiers
+<details>
+  <summary>
+    <b> Principium
+      </b> </summary>
+
+##### Identifiers
   - User defined ➛ variables, classes, functions
   - In context and relevant
 
-    `eg: firstname, age, phone, employeecode`
+`eg: firstname, age, phone, employeecode`
 
-     - ### keywords
+---
 
-        -  Reserved words
+##### keywords
+  - Reserved words
+  - set of words with defined meaning
 
-  set of words = pre-defined meaning
-
-  ex:
-    int  -- whole numbers
-    float -- decimal numbers
-    break  -- stop the execution
-
-```java
-
-package oops;
-import java.util.Scanner;
-public class Books
-{
-  private int bookid;
-  private String bookname;
-  private float price;
-  //user defined methods
-  public void getBooks()
-  {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter bookid, name and price:");
-    bookid = sc.nextInt();
-    bookname = sc.next();
-    price = sc.nextFloat();
-  }
-
-  public void showBooks()
-  {
-    System.out.println("Book id:" + bookid);
-    System.out.println("Book Name:" + bookname);
-    System.out.println("Price:" + price);
-  }
-    }
 ```
-     </code></pre>
-
-
-{"scope": "black", "code": "\\x1b\\[(0{,2};)?30m", "color": "#000000"},
+eg:
+int  -- whole numbers
+float -- decimal numbers
+break  -- stop the execution
+```
 
 #### • variable
-- test 1
-- test 2
-----------
-
-  user defined name - given to a memory location (Temporary memory)
-
-  easily the identify memory location(store/retrieve)
+  - user defined name - given to a memory location (Temporary memory)
+  - easily the identify memory location(store/retrieve)
 
 
   declaration
@@ -202,6 +171,7 @@ Basic input / output
     import java.util.Scanner;   //importing the library files (packages)
 
     Scanner obj = new Scanner(System.in);
+</details>
 
 Structure of java program
 -------------------------
