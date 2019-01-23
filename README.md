@@ -2092,11 +2092,11 @@ What does this program do?
 */
 ```
            /------------[ A Romp Through Java ]-----------\
-          ||                        ||
-          ||    @version: 0.1b              ||
-          ||    @author : motörhead           ||
-          ||    @mail : anonymous.at.dot@gmail.com  ||
-          ||                        ||
+          ||                                              ||
+          ||    @version: 0.1b                            ||
+          ||    @author : motörhead                       ||
+          ||    @mail   : anonymous.at.dot@gmail.com      ||
+          ||                                              ||
            \----------------------------------------------/
 ```
 
